@@ -15,6 +15,7 @@ import { RouterLink, RouterView } from 'vue-router';
         <RouterLink :to="{name: 'auth'}">Auth</RouterLink>
         <RouterLink :to="{name: 'firebase'}">Firebase</RouterLink>
         <RouterLink :to="{name: 'socials'}">Socials</RouterLink>
+        <RouterLink :to="{name: 'aws'}">AWS/ Azure ad</RouterLink>
       </nav>
     </div>
   </header>

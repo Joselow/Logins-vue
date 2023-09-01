@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/socials',
       name: 'socials',
       component: () => import('../views/SocialAuthView.vue'),
+    },
+    {
+      path: '/aws',
+      name: 'aws',
+      component: () => import('../views/AWSAuthView.vue'),
     }
   ]
   
